@@ -1,4 +1,4 @@
-let cardNumber = prompt("Введите номер вашей карты!", "14 цифр");
-let result = cardNumber.slice(10, 14);
+let cardNumber = prompt("Введите номер вашей карты!");
+number = cardNumber.replace(cardNumber.slice(0, -4),'**********');
 
-document.write("Номер вашей карты:**********" + result);
+alert('Номер вашей карты'+ number);
